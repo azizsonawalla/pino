@@ -91,7 +91,7 @@ const logger = pino({
   level: 'foo'
 })
 logger.foo('hi')
-logger.info('hello') // Will throw an error saying info in not found in logger object
+logger.info('hello') // Will throw an error saying info is not found in logger object
 ```
 
 #### `mixin` (Function):
